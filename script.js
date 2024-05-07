@@ -10,5 +10,8 @@ for (let i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function(){
     modal.classList.remove("hidden");
   });
-
 }
+
+btnCloseModal.addEventListener("click", function(){
+  modal.classList.add("hidden")
+})
